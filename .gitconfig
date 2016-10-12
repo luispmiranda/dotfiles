@@ -1,0 +1,6 @@
+[user]
+	name = Luis Miranda 
+    email = luispaulomiranda@gmail.com
+[alias]
+    history = log --graph --decorate --pretty=format:'%h %Cred %ad %Cgreen %s%d %Cblue %an' --date=short --abbrev-commit --all
+    nuclear = !git fetch origin && git reset --hard origin/master
