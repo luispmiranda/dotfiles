@@ -47,6 +47,12 @@ Plugin 'ctrlpvim/ctrlp.vim'                " ctrlp fuzzy finder
 
 call vundle#end()
 
+" buffer navigation
+map gl :bn<cr>
+map gh :bp<cr>
+map gd :bd<CR>
+map gb :ls<CR>
+
 """""""""""" NERDTree
 map <C-n> :NERDTreeToggle<CR>
 
