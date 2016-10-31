@@ -1,10 +1,11 @@
 "luispmiranda .vimrc configs"
 filetype off
+syntax on
 
 set nocompatible            " old vi compatibility
-syntax on
 set ruler                   " show the cursor position all the time
-set autoindent              " 
+set autoindent              
+set list                    " show $ at the end of the line
 set smartindent
 set smarttab
 set showmatch
